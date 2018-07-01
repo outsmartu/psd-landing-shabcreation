@@ -230,3 +230,31 @@ input[type=submit]{
 	color: #fb2274;
 	border: 2px solid #fb2274;
 }
+
+@media screen and (max-width: 800px) {
+	.services_gallery{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.services_card{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.contact > div{
+		width: 100%;
+	}
+
+	.contact{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact .map{
+		min-height: 400px;
+		background-position: 10% 70%;
+	}
+
+}
