@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	//border: 1px solid red;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: local('Open Sans'),url('../fonts/Montserrat-ExtraBold.otf');
+	font-weight: 300;
+}
+
+body{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	list-style: none;
+}
+
+header{
+	background: url(../img/bg-light.png) no-repeat center top / cover;
+	height: 100vh;
+	box-shadow:0 0 0 2000px rgba(0, 0, 0, 0.7) inset;	
+	padding-top: 0px;
+}
+
+.container{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.first{
+	padding-top: 40px;
+}
+
+.heading{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading #logo{
+	font-size: 18px;
+}
+
+.heading .navbar{
+	display: flex;
+	flex-direction: row;
+}
+
+.heading .navbar li{
+	font-size: 18px;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+a.active{
+	color: #fb2274;
+}
+
+.motto{
+	margin-top: 220px;
+	text-transform: uppercase;
+}
+
+.motto h1{
+	font-size: 100px;
+	font-weight: 900;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+}
+
+.motto h1:nth-child(2){
+	color: #fb2274;
+}
+
+.motto p{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.arrow{
+	margin-top: 200px;
+	text-align: center;
+}
+
+.about{
+	background: white;
+	color: #444444;
+	padding: 100px 0px 100px 0px;
+}
+
+.info{
+	text-align: center;
+}
+
+.info h3{
+	font-size: 48px;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.info p{
+	font-size: 28px;
+	text-align: center;
+	color: #a9a9a9;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	font-weight: 900;
+}
+
+.info a{
+	padding: 10px 50px;
+	color: #fb2274;
+	font-size: 24px;
+	border: 3px solid #fb2274;
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+
+.services{
+	background: #fafafa;
+	padding-top: 100px;
+	padding-bottom: 70px;
+
+}
+
+.services h3{
+	color: #444444;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-family: Open Sans, sans-serif;
+}
+
+.services p{
+	color: #a9a9a9;
+	font-size: 28px;
+}
+
+.services_gallery{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services_card{
+	color: black;
+	width: 30%;
+	overflow: hidden;
+	background: white;
+}
+
+.services img{
+	height: 400px;
+}
+
+.services_card h5{
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.contact{
+	display: flex;
+	flex-direction: row;
+}
+
+.contact .map{	
+	background: url(../img/map.png);
+	background-position: 10% 100%;
+}
+
+.contact .form h3{
+	color: #444444;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	font-family: Open Sans, sans-serif;
+}
+
+.contact > div{
+	width: 50%;
+}
+
+.contact .form{
+	padding: 50px 50px 70px 50px;
+}
+
+.contact .form div{
+	margin-bottom: 30px;
+}
+
+.contact input, textarea{
+	width: 100%;
+	font-size: 18px;
+	padding: 20px 30px;
+	background: #fafafa;
+	color: #a9a9a9;
+}
+
+.contact textarea{
+	resize: none;
+}
+
+form input, textarea{
+	border: 2px solid #efefef;
+	border-radius: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]{
+	background: white;
+	font-size: 24px;
+	color: #fb2274;
+	border: 2px solid #fb2274;
+}
